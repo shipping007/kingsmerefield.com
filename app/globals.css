@@ -1,0 +1,10 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { --navy:#0A1A3C; --gold:#D4AF37; }
+html, body { scroll-behavior: smooth; max-width: 100%; overflow-x: hidden; }
+[data-aos] { will-change: transform, opacity; }
+
+/* Ensure media never overflow horizontally */
+img, video { max-width: 100%; height: auto; display: block; }
