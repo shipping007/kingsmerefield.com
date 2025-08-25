@@ -24,7 +24,7 @@ export default function HomePage() {
       </section>
 
       {/* Why Choose Us */}
-      <section className="container mx-auto px-4 py-16 grid md:grid-cols-3 gap-6">
+      <section className="container mx-auto px-4 py-16 grid grid-cols-2 md:grid-cols-3 gap-6">
         {[
           { title: "Business-First Advice", desc: "Practical, timely guidance aligned with your goals."},
           { title: "Cross-border Expertise", desc: "Experience with international clients & structures."},
@@ -41,7 +41,7 @@ export default function HomePage() {
       <section className="bg-white dark:bg-black/20">
         <div className="container mx-auto px-4 py-16">
           <h2 className="font-serif text-3xl mb-6" data-aos="fade-up">Our Practice Areas</h2>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
             {[
               { title:"Company Incorporation & Business Setup", img:"/images/services/incorporation.jpg" },
               { title:"Commercial & Corporate Law", img:"/images/services/corporate.jpg" },
@@ -109,7 +109,7 @@ export default function HomePage() {
       {/* Founders Section */}
       <section className="container mx-auto px-4 pb-4">
         <h2 className="font-serif text-3xl mb-6" data-aos="fade-up">Founders</h2>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-6">
           {[
             {
               name: "Mateo Todd",

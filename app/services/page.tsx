@@ -29,7 +29,7 @@ export default function ServicesPage() {
       </section>
 
       <section className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {services.map((svc, idx)=> (
             <div key={svc.title} className="rounded-2xl overflow-hidden border border-black/10 dark:border-white/10 shadow-soft" data-aos={idx%2===0? "fade-right":"fade-left"}>
               <div className="relative h-40">
