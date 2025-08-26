@@ -69,24 +69,24 @@ export default function HomePage() {
       {/* Testimonials (Image Cards) */}
       <section className="container mx-auto px-4 py-16">
         <h2 className="font-serif text-3xl mb-6" data-aos="fade-up">What Clients Say</h2>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
           {[
             {
-              quote: "They incorporated our UK company seamlessly.",
-              name: "Amelia R.",
-              role: "Entrepreneur, London",
+              quote: "Kingsmerefield Solicitors exceeded my expectations with their professionalism, clarity, and speed. Communication was excellent, and I always felt informed. Highly recommended.",
+              name: "Thomas Macarty",
+              role: "Business Owner, Brighton",
               photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=256&h=256&fit=crop&auto=format&q=60"
             },
             {
-              quote: "Expert guidance on a complex property deal.",
-              name: "Oliver K.",
-              role: "Investor, Manchester",
+              quote: "Barr. Mateo Todd provided invaluable guidance throughout our business setup. His calm, professional approach made complex legal issues clear and manageable. We’re grateful for his expertise.",
+              name: "Barr. Harry Smith",
+              role: "Corporate Client, Liverpool",
               photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=256&h=256&fit=crop&auto=format&q=60"
             },
             {
-              quote: "Clear, responsive and business-minded advice.",
-              name: "Sophia T.",
-              role: "Startup Founder, Birmingham",
+              quote: "The team at Kingsmerefield Solicitors gave me clear, practical advice for an employment matter. Their support was efficient and reassuring, making a stressful situation much easier to handle.",
+              name: "Florence Oliver",
+              role: "HR Manager, London",
               photo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=256&h=256&fit=crop&auto=format&q=60"
             }
           ].map((t, idx) => (

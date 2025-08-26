@@ -28,7 +28,7 @@ export default function ContactPage() {
           <div className="rounded-2xl overflow-hidden shadow-soft h-72">
             <iframe
               title="map"
-              src="https://www.google.com/maps?q=City+of+London+EC2+United+Kingdom&output=embed"
+              src="https://www.google.com/maps?q=High+Road,+Tottenham+Road,+London+N15+4NP,+United+Kingdom&output=embed"
               className="w-full h-full border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -36,8 +36,9 @@ export default function ContactPage() {
           </div>
           <div>
             <h3 className="font-serif text-xl">Our Office</h3>
-            <p className="text-black/70 dark:text-white/80 mt-2">City of London, EC2, United Kingdom</p>
-            <p className="text-black/70 dark:text-white/80">+44 (0)20 7946 0123 • contact@kingsmerefieldsolicitors.com</p>
+            <p className="text-black/70 dark:text-white/80 mt-2">High Road, Tottenham Road, London N15 4NP</p>
+            <p className="text-black/70 dark:text-white/80">United Kingdom</p>
+            <p className="text-black/70 dark:text-white/80">+447384812340 • Mateotodd@mail.co.uk</p>
           </div>
         </div>
       </section>

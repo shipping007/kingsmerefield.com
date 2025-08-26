@@ -8,3 +8,19 @@ html, body { scroll-behavior: smooth; max-width: 100%; overflow-x: hidden; }
 
 /* Ensure media never overflow horizontally */
 img, video { max-width: 100%; height: auto; display: block; }
+
+/* Phone input base styles */
+@import "react-phone-number-input/style.css";
+/* Make the phone input blend with shadcn inputs */
+.PhoneInput {
+  width: 100%;
+}
+.PhoneInputInput {
+  /* The inner input is replaced by our shadcn-styled inputComponent, but keep as fallback */
+  background: transparent;
+  color: inherit;
+}
+.PhoneInputCountrySelect {
+  background: transparent;
+  color: inherit;
+}

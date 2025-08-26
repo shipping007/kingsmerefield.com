@@ -7,9 +7,10 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-10 grid gap-8 md:grid-cols-3">
         <div>
           <h3 className="font-serif text-xl">Kingsmerefield Solicitors</h3>
-          <p className="text-white/70 mt-2">City of London, EC2, United Kingdom</p>
-          <p className="text-white/70">+44 (0)20 7946 0123</p>
-          <p className="text-white/70">contact@kingsmerefieldsolicitors.com</p>
+          <p className="text-white/70 mt-2">High Road, Tottenham Road, London N15 4NP</p>
+          <p className="text-white/70">United Kingdom</p>
+          <p className="text-white/70">+447384812340</p>
+          <p className="text-white/70">Mateotodd@mail.co.uk</p>
         </div>
         <div>
           <h4 className="font-semibold">Quick Links</h4>
@@ -43,3 +44,4 @@ export default function Footer() {
     </footer>
   )
 }
+
