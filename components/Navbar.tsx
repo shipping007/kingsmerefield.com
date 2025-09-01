@@ -13,7 +13,7 @@ export default function Navbar() {
   useEffect(() => setMounted(true), [])
 
   return (
-    <header className="sticky top-0 z-50 bg-white/90 dark:bg-navy/80 backdrop-blur border-b border-black/5 dark:border-white/10">
+    <header className="fixed top-0 inset-x-0 z-50 bg-white/90 dark:bg-navy/80 backdrop-blur border-b border-black/5 dark:border-white/10">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-2">
           <Image src="/images/logo.jpg" alt="Kingsmerefield Solicitors" width={40} height={40} className="rounded" />

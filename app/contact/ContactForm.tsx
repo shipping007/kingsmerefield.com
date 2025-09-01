@@ -21,8 +21,18 @@ export default function ContactForm() {
   })
 
   const onSubmit = async (data: any) => {
-    await new Promise(r => setTimeout(r, 500))
-    alert("Thank you! We'll reach out shortly.")
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      })
+      const json = await res.json()
+      if (!res.ok || !json.ok) throw new Error(json.error || "Failed to send")
+      alert("Thank you! We'll reach out shortly.")
+    } catch (e: any) {
+      alert(e?.message || "Sorry, we couldn't send your message. Please try again.")
+    }
   }
 
   return (
@@ -39,7 +49,7 @@ export default function ContactForm() {
       </div>
       <div>
         <Label htmlFor="phone">Phone</Label>
-        <Input id="phone" placeholder="+234 ..." {...register("phone")} />
+        <Input id="phone" placeholder="+44 ..." {...register("phone")} />
         {errors.phone && <p className="text-sm text-red-600 mt-1">{String(errors.phone.message)}</p>}
       </div>
       <div>

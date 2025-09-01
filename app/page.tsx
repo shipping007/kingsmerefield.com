@@ -75,19 +75,19 @@ export default function HomePage() {
               quote: "Kingsmerefield Solicitors exceeded my expectations with their professionalism, clarity, and speed. Communication was excellent, and I always felt informed. Highly recommended.",
               name: "Thomas Macarty",
               role: "Business Owner, Brighton",
-              photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=256&h=256&fit=crop&auto=format&q=60"
+              photo: "https://i.postimg.cc/DzP7YFFz/midlle.jpg"
             },
             {
               quote: "Barr. Mateo Todd provided invaluable guidance throughout our business setup. His calm, professional approach made complex legal issues clear and manageable. We’re grateful for his expertise.",
               name: "Barr. Harry Smith",
               role: "Corporate Client, Liverpool",
-              photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=256&h=256&fit=crop&auto=format&q=60"
+              photo: "https://i.postimg.cc/yxMdCPG6/young.jpg"
             },
             {
               quote: "The team at Kingsmerefield Solicitors gave me clear, practical advice for an employment matter. Their support was efficient and reassuring, making a stressful situation much easier to handle.",
               name: "Florence Oliver",
               role: "HR Manager, London",
-              photo: "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?w=256&h=256&fit=crop&auto=format&q=60"
+              photo: "https://i.postimg.cc/9FkSVk1Y/florence.jpg"
             }
           ].map((t, idx) => (
             <Card key={idx} data-aos="fade-in" className="p-6">

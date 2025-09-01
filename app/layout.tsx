@@ -6,6 +6,7 @@ import { ThemeProvider } from "@/components/ThemeProvider"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import AOSProvider from "@/components/AOSProvider"
+import ScrollToTop from "@/components/ScrollToTop"
 
 const inter = Inter({ subsets: ["latin"] })
 const playfair = Playfair_Display({ subsets: ["latin"] })
@@ -23,8 +24,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Navbar />
           <AOSProvider />
-          <main className="min-h-screen">{children}</main>
+          <main className="min-h-screen pt-16">{children}</main>
           <Footer />
+          <ScrollToTop />
         </ThemeProvider>
       </body>
     </html>

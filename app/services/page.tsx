@@ -33,7 +33,7 @@ export default function ServicesPage() {
           {services.map((svc, idx)=> (
             <div key={svc.title} className="rounded-2xl overflow-hidden border border-black/10 dark:border-white/10 shadow-soft" data-aos={idx%2===0? "fade-right":"fade-left"}>
               <div className="relative h-40">
-                <Image src={`/images/services/service${(idx%6)+1}.jpg`} alt={svc.title} fill className="object-cover" />
+                <Image src={`/images/services/service${idx+1}.jpg`} alt={svc.title} fill className="object-cover" />
               </div>
               <div className="p-5">
                 <h3 className="font-serif text-xl">{svc.title}</h3>
