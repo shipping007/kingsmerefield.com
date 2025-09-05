@@ -38,7 +38,7 @@ export default function ContactPage() {
             <h3 className="font-serif text-xl">Our Office</h3>
             <p className="text-black/70 dark:text-white/80 mt-2">High Road, Tottenham Road, London N15 4NP</p>
             <p className="text-black/70 dark:text-white/80">United Kingdom</p>
-            <p className="text-black/70 dark:text-white/80">+447384812340 • Mateotodd@mail.co.uk</p>
+            <p className="text-black/70 dark:text-white/80">+447384812340 • Mateotodd@mail.co.uk • Mateotodd@kingsmerefield.com</p>
           </div>
         </div>
       </section>

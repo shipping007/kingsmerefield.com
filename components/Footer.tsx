@@ -11,6 +11,7 @@ export default function Footer() {
           <p className="text-white/70">United Kingdom</p>
           <p className="text-white/70">+447384812340</p>
           <p className="text-white/70">Mateotodd@mail.co.uk</p>
+          <p className="text-white/70">Mateotodd@kingsmerefield.com</p>
         </div>
         <div>
           <h4 className="font-semibold">Quick Links</h4>
